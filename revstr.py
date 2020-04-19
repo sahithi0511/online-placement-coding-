@@ -1,9 +1,9 @@
 s=input()
 c=0
 l=list(s)
-#print(l)
+print(l)
 a=l[::-1]
-#print(a)
+print(a)
 for i in a:
     if i=="_":
         c=c+1
@@ -11,7 +11,7 @@ for i in a:
         break
 #print(c)
 a=l[:len(l)-c]
-#print(a)
+print(a)
 j=''
 d=1
 i=0
@@ -19,7 +19,7 @@ e=2
 while d<=c:
     if a[i]=="_":
         a.insert(i+1,"_")
-        #print(b)
+        print(b)
         i=i+e
         d=d+1
     else:
